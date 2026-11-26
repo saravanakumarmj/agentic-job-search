@@ -1,0 +1,27 @@
+Let's create the branches now
+
+-- Create dev branches
+git switch -c develop
+git push -u origin develop
+
+--If there are no commits yet, create the initial commit first:
+git add .
+git commit -m "chore: initial project setup"
+
+--Then create the development branch:
+
+
+
+
+
+
+-- Then creating staging
+
+git switch main
+git switch -c staging
+git push -u origin staging
+
+--Finally, return to development:
+git switch develop
+
+

@@ -1,0 +1,27 @@
+[app]
+name = "Agentic Job Search"
+environment = "staging"
+debug = false
+log_level = "INFO"
+
+[database]
+url = "sqlite:///data/staging.db"
+
+[resume]
+path = "data/resume.txt"
+
+[job_search]
+countries = ["India"]
+locations = ["Bengaluru", "Chennai", "Remote"]
+target_titles = [
+    "Head of AI",
+    "AI Director",
+    "Director of AI/ML",
+    "AI Practice Head",
+    "Head of Data Science",
+    "VP of AI"
+]
+work_mode = "remote"
+minimum_salary_lpa = 70
+salary_basis = "fixed"
+unknown_salary_policy = "review"
